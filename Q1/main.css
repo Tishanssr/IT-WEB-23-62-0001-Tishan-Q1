@@ -1,0 +1,66 @@
+.font-wa{
+    font-size: 40px;
+}
+
+.slogan-color{
+    color: rgb(105, 105, 105);
+}
+
+.main_color{
+    color:#525ffb;
+}
+
+.btn-primary{
+    background-color:#525ffb;
+}
+
+
+.Featured-service-boxs1{
+    background-color: #525ffb;
+    text-align: center;
+}
+
+.Featured-service-boxs2{
+    background-color: #e9f0ff;
+    text-align: center;
+}
+
+
+.Featured-service-boxs3{
+    background-color:#ffe7aa;
+    text-align: center;
+}
+
+.task-management{
+    margin-top: 150px;
+}
+
+.seamless-team{
+    margin-top: 150px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.number-heading{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.second-smile-girl{
+    margin-top: 200px;
+}
+
+.address{
+    font-weight: 400;
+    color: #5b5c5f;
+}

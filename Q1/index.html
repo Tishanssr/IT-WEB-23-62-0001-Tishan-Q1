@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taskia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!------------------------------ Nav-bar ------------------------------>
+    <nav class="navbar navbar-expand mt-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 20px; color:#525ffb;">Taskia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="button">
+                        <button type="button" class="btn btn-outline-primary rounded-pill fw-semibold pe-4 ps-4">Try
+                            Free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------- hero-Section ----------------------------->
+    <div class="row container-fluid d-flex justify-content-center align-items-center mt-5"
+        style="margin-bottom: 150px;">
+        <div class="col-md-5 ">
+            <h1 class="text-md-start text-sm-center text-center font-wa"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 40px;">Tasks Management </h1>
+            <h1 class="text-md-start text-sm-center text-center font-wa"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 40px;">and List Tools</h1>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <h6 class="text-md-start text-center slogan-color " style="font-family: 'Poppins', sans-serif;">We
+                        believe that designing products and services in close
+                        partnership with our clients is the only way to have a real
+                        impact on their business.</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control rounded-pill p-3" id="email" name="email" required
+                                aria-describedby="emailHelp" placeholder="Name@company.com">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 text-center text-md-start  mb-5">
+                    <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3 pe-4 ps-4 " onclick="handleSubmit()">Try Free</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 text-center">
+            <img src="Images/hero image.jpg" alt="" class="img-fluid" style="width:90%;">
+        </div>
+    </div>
+
+    <!---------------------------- Featured Service ------------------------------>
+    <h1 class="text-center mt-5 mb-5" style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 25px;">
+        Featured
+        Service that We Provide</h1>
+    <div class="row container d-flex justify-content-center align-items-center mx-auto ">
+        <div class="col-md-3 Featured-service-boxs1  rounded mb-3">
+            <img src="Images/Image 3.png" alt="" class="img-fluid pt-5">
+            <h3 style="font-family: 'Poppins', sans-serif; color: white;" class="text-center">Keep tasks in</h3>
+            <h3 style="font-family: 'Poppins', sans-serif; color: white;" class="text-center mb-5">one place</h3>
+            <p class="text-center" style="font-family: 'Poppins', sans-serif; color: white;">Save time, avoid losing
+                work and
+                information, delegate, and track tasks to
+                stay on schedule</p>
+        </div>
+        <div class="col-md-3 Featured-service-boxs2 ms-md-5 me-md-5 rounded mt-md-5 mb-3 pt-5">
+            <img src="Images/Image 2.png" alt="" class="img-fluid ">
+            <h3 style="font-family: 'Poppins', sans-serif;" class="text-center">Keep tasks in</h3>
+            <h3 style="font-family: 'Poppins', sans-serif;" class="text-center mb-5">one place</h3>
+            <p class="text-center" style="font-family: 'Poppins', sans-serif;">Save time, avoid losing work and
+                information, delegate, and track tasks to
+                stay on schedule</p>
+        </div>
+        <div class="col-md-3 Featured-service-boxs3  rounded pt-5 mb-3">
+            <img src="Images/Image 1.png" alt="" class="img-fluid">
+            <h3 style="font-family: 'Poppins', sans-serif;" class="text-center">Keep tasks in</h3>
+            <h3 style="font-family: 'Poppins', sans-serif;" class="text-center mb-5">one place</h3>
+            <p class="text-center" style="font-family: 'Poppins', sans-serif;">Save time, avoid losing work and
+                information, delegate, and track tasks to
+                stay on schedule</p>
+        </div>
+    </div>
+
+    <!------------------------------ task-management ------------------------------>
+
+
+    <div class="row container-fluid d-flex justify-content-center align-items-center mx-auto   task-management">
+        <div class="col-md-5">
+            <img src="Images/Image 8.jpg" alt="" class="img-fluid mx-auto d-block" style="width: 70%;">
+        </div>
+        <div class="col-md-5">
+            <h1 class="text-md-start text-center mt-sm-4"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 30px;">Why do you need</h1>
+            <h1 class="text-md-start text-center"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 30px;">task management</h1>
+            <h6 class="text-md-start text-center slogan-color mt-5 mb-5 " style="font-family: 'Poppins', sans-serif;">We
+                Do you waste time organizing sticky notes, searching your email
+                and apps for to-dos, and figuring out what to work on first?
+                Then you need one solution to prioritize your tasks, manage
+                your time, and meet your deadlines.</h6>
+            <div class="row">
+                <div class="col-md-12 text-center text-md-start">
+                    <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3 pe-4 ps-4 ">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+    <!---------------------------- Seamless-team ------------------------------>
+    <div class=" row container-fluid d-flex justify-content-center align-items-center mx-auto seamless-team">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-5">
+            <h1 class="text-md-start text-center mt-sm-4"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 30px;">Seamless Team</h1>
+            <h1 class="text-md-start text-center"
+                style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 30px;">Workflow & Efficient</h1>
+            <h6 class="text-md-start text-center slogan-color mt-5 mb-5 " style="font-family: 'Poppins', sans-serif;">Do
+                you waste time organizing sticky notes, searching your email
+                and apps for to-dos, and figuring out what to work on first?
+                Then you need one solution to prioritize your tasks, manage
+                your time, and meet your deadlines.</h6>
+            <div class="row">
+                <div class="col-md-2 text-center text-md-start img-container">
+                    <img src="Images/Image 6.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 text-center text-md-start img-container">
+                    <img src="Images/Image 9.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-8 text-center text-md-start">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-5">
+            <img src="Images/Image 7.jpg" alt="" class="img-fluid mx-auto d-block" style="width: 70%;">
+        </div>
+    </div>
+
+    <!----------------------------- Trust us and feel ------------------------------>
+
+    <h1 class="text-center"
+        style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 25px; margin-top: 150px; margin-bottom:100px;">
+        Trust us and feel free to try our service</h1>
+    <div class="row container mx-auto">
+        <div class="col-md-3">
+            <img src="Images/Image 4.jpg" alt="" class="img-fluid mx-auto d-block " style="width: 90%;">
+        </div>
+
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <h1 class="text-center number-heading main_color "
+                style="font-family: 'Poppins', sans-serif; font-weight: 700;">100 000</h1>
+        </div>
+
+        <div class="col-md-3 second-smile-girl">
+            <img src="Images/Image 5.jpg" alt="" class="img-fluid mx-auto d-block" style="width: 100%;">
+
+        </div>
+
+    </div>
+    <hr>
+    <!-------------------------- Get-better-work-done ----------------------------->
+    <h1 class="text-center mb-3 "
+        style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 25px; margin-top: 100px;">
+        See Get better work done</h1>
+
+    <div class="row container-fluid mb-5">
+        <div class="col-md-12">
+            <h6 class="text-center address">See why millions of people across 195</h6>
+            <h6 class="text-center address">countries use Dash.</h6>
+        </div>
+    </div>
+    <div class="row container-fluid d-flex justify-content-center align-items-center mb-5">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <form>
+                <div class="mb-3 me-5">
+                    <input type="email" class="form-control rounded-pill p-3 pe-5 ps-5" id="email2" name="email" required
+                        aria-describedby="emailHelp" placeholder="Name@company.com">
+                </div>
+            </form>
+            <div class="button">
+                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3 pe-4 ps-4 " onclick="handleSubmit2()">Try Free</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
